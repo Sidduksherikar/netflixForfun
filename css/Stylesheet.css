@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  
+    font-family: 'Lato', sans-serif;
+}
+
+#headerBlock article{
+    display: flex;
+ 
+    height: 100px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.logoblock svg{
+    height: 45px;
+    width: 167px;
+    fill: #e50915;
+    line-height: normal;
+}
+.logoblock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.signinblock li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ .signinblock{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signinblock ul li a{
+    text-decoration: none;
+    background-color:#e50915;
+    letter-spacing: 1.5px;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px; 
+
+}
+#slider {
+    margin-top: -100px;
+    background-image: url(../image/backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 200px 100px 300px 50px #111 inset;
+    
+    
+}
+.contentblock h1{
+    font-size: 4.125rem;
+    color: white;
+}
+.one{
+    font-size: 28px;
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.two{
+    font-size: 1.25rem;
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+#slider{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    padding-left: 30px;
+    width: 500px;
+    height: 60px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+button{
+    width: 170px;
+    height: 60px;
+    background-color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.contentbox form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Signinpage{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;  
+    margin-top: 15%;
+}
+.a{
+    width: 300px;
+    height: 40px;
+}
+.b{
+    width: 300px;
+    height: 40px;
+}
+.c{
+    width: 100px;
+    height: 25px;
+    margin-left: 80px;
+    
+}
+#enjoyblock{
+    background-color:#111;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+#enjoyblock article{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    border-color: white;
+}
+.enjoyleftblock
+ {
+    width: 50%;
+}
+.enjoyleftblock h1
+{
+    font-size: 48px;
+    
+}
+.enjoyleftblock p
+{
+    font-size: 25px;
+    
+}
+.enjoyrightblock{
+    position: relative;
+    width: 50%;
+}
+
+.tv_image {
+    position:relative;
+}
+.tv_image img{
+    position: absolute;
+    width: 500px;
+    top: -198px;
+}
+
+.tv_video video {
+    position: absolute;
+    top: -119px;
+    left: 66px;
+    width: 363px;
+}
+#enjoyblock2{
+    background-color:#111;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+#enjoyblock2 article{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.enjoyleftblock2
+ {
+    width: 50%;
+}
+.enjoyleftblock2 img
+ {
+    width: 300px;
+}
+.enjoyrightblock2{
+    width: 50%;
+}
+.enjoyrightblock2 h1
+{
+    font-size: 48px;
+    
+}
+.enjoyrightblock2 p
+{
+    font-size: 25px;
+    
+}
+/* 3rd block */
+
+#enjoyblock3{
+    background-color:#111;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+#enjoyblock3 article{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.enjoyleftblock3
+ {
+    width: 50%;
+}
+
+
+.enjoyrightblock3{
+    position: relative;
+    width: 50%;
+}
+.enjoyleftblock3 h1
+{
+    font-size: 48px;
+    
+}
+.enjoyleftblock3
+ p
+{
+    font-size: 25px;
+    
+}
+
+.apple_video video{
+    display: flex;
+    position: absolute;
+    width: 245px;
+    top: -110px;
+    left: 75px;
+    
+}
+.apple_image img{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    top: -140px;
+    z-index: 1;
+}
+.apple_image {
+    position: relative;
+}

@@ -1,0 +1,47 @@
+#text article{
+    background-color: crimson;
+    display: flex;
+    height: 100px;
+    font-weight: 900;
+    font-size: 30px;
+
+
+    
+}
+.item1{
+    background-color: cyan;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.item2{
+    background-color:rebeccapurple;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    background-color: gold;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item4{
+    background-color: paleturquoise;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item5{
+    background-color: purple;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
